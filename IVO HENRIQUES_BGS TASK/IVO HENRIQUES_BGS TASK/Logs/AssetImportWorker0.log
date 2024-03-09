@@ -1,0 +1,400 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.2f1 (d6360bedb9a0) revision 14038539'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16311 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+F:\Program Files (x86)\Unity\2021.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/Users/Public/Documents/Unity Projects/IVO-HENRIQUES_BSG-TASK/IVO HENRIQUES_BGS TASK/IVO HENRIQUES_BGS TASK
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52269
+Successfully changed project path to: F:/Users/Public/Documents/Unity Projects/IVO-HENRIQUES_BSG-TASK/IVO HENRIQUES_BGS TASK/IVO HENRIQUES_BGS TASK
+F:/Users/Public/Documents/Unity Projects/IVO-HENRIQUES_BSG-TASK/IVO HENRIQUES_BGS TASK/IVO HENRIQUES_BGS TASK
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 130.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
+[Subsystems] Discovering subsystems at path F:/Program Files (x86)/Unity/2021.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Users/Public/Documents/Unity Projects/IVO-HENRIQUES_BSG-TASK/IVO HENRIQUES_BGS TASK/IVO HENRIQUES_BGS TASK/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   NVIDIA
+    VRAM:     4017 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'F:/Program Files (x86)/Unity/2021.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'F:/Program Files (x86)/Unity/2021.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'F:/Program Files (x86)/Unity/2021.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/Program Files (x86)/Unity/2021.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: F:/Program Files (x86)/Unity/2021.3.2f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: F:/Program Files (x86)/Unity/2021.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003156 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 85.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.530 seconds
+Domain Reload Profiling:
+	ReloadAssembly (530ms)
+		BeginReloadAssembly (54ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (394ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (84ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (251ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (52ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (85ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (78ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004408 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Users\Public\Documents\Unity Projects\IVO-HENRIQUES_BSG-TASK\IVO HENRIQUES_BGS TASK\IVO HENRIQUES_BGS TASK\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Users\Public\Documents\Unity Projects\IVO-HENRIQUES_BSG-TASK\IVO HENRIQUES_BGS TASK\IVO HENRIQUES_BGS TASK\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 87.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.039 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1039ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (131ms)
+		EndReloadAssembly (751ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (196ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (409ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (87ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (189ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4048 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (225.5 KB). Loaded Objects now: 4500.
+Memory consumption went from 152.3 MB to 152.1 MB.
+Total: 4.273500 ms (FindLiveObjects: 0.575300 ms CreateObjectMapping: 0.127300 ms MarkObjects: 3.400800 ms  DeleteObjects: 0.167900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 514572.013987 seconds.
+  path: Assets/FREE Mana Seed Character Base Demo
+  artifactKey: Guid(809aa3a79b6fa694d828e268af48da6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Mana Seed Character Base Demo using Guid(809aa3a79b6fa694d828e268af48da6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234d4505b3607317a8fd8c07398c6c2c') in 0.013825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.375239 seconds.
+  path: Assets/FREE Mana Seed Character Base Demo/char_a_p1
+  artifactKey: Guid(ab5aaab673e440940b3944d4f42fbb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Mana Seed Character Base Demo/char_a_p1 using Guid(ab5aaab673e440940b3944d4f42fbb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5adad0530bffbf91781da059260c0f') in 0.006642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.066028 seconds.
+  path: Assets/FREE Mana Seed Character Base Demo/char_a_p1/char_a_p1_0bas_humn_v01.png
+  artifactKey: Guid(aedd926d92619b547bf3dc8d70c59b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Mana Seed Character Base Demo/char_a_p1/char_a_p1_0bas_humn_v01.png using Guid(aedd926d92619b547bf3dc8d70c59b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae16ef4c0612f2f2d91e525c5f01055') in 0.129176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.196680 seconds.
+  path: Assets/FREE Mana Seed Character Base Demo/char_a_p1/1out
+  artifactKey: Guid(d6de678e5095f2c41855f33e15edf3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Mana Seed Character Base Demo/char_a_p1/1out using Guid(d6de678e5095f2c41855f33e15edf3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361e0f1b14f61c34f3c42e95575cfa1e') in 0.006673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.045051 seconds.
+  path: Assets/FREE Mana Seed Character Base Demo/char_a_p1/1out/char_a_p1_1out_boxr_v01.png
+  artifactKey: Guid(7164b97ae59eae44fa54afe52ab4a862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Mana Seed Character Base Demo/char_a_p1/1out/char_a_p1_1out_boxr_v01.png using Guid(7164b97ae59eae44fa54afe52ab4a862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3f98d93ad0f283641d744f85dff83c') in 0.024568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FREE Mana Seed Character Base Demo/char_a_p1/1out/char_a_p1_1out_pfpn_v04.png
+  artifactKey: Guid(ae890ea0b16c27841b6e9e2aa3b216c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Mana Seed Character Base Demo/char_a_p1/1out/char_a_p1_1out_pfpn_v04.png using Guid(ae890ea0b16c27841b6e9e2aa3b216c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094792e4c31df989b1f171f8ec3d600c') in 0.042977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FREE Mana Seed Character Base Demo/char_a_p1/1out/char_a_p1_1out_undi_v01.png
+  artifactKey: Guid(5daa644e633fa934dace668bd75b3fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Mana Seed Character Base Demo/char_a_p1/1out/char_a_p1_1out_undi_v01.png using Guid(5daa644e633fa934dace668bd75b3fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f868ae2828bfeabd9a7403ede0834c54') in 0.023304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.349040 seconds.
+  path: Assets/FREE Mana Seed Character Base Demo/char_a_p1/4har/char_a_p1_4har_bob1_v01.png
+  artifactKey: Guid(4a53e09b246d3764fb19a05d70404335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Mana Seed Character Base Demo/char_a_p1/4har/char_a_p1_4har_bob1_v01.png using Guid(4a53e09b246d3764fb19a05d70404335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e212bdb6710a514dbdbd704d4e89d2') in 0.024345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.090830 seconds.
+  path: Assets/FREE Mana Seed Character Base Demo/char_a_p1/5hat
+  artifactKey: Guid(54411779494a8204f81423a6967cf783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Mana Seed Character Base Demo/char_a_p1/5hat using Guid(54411779494a8204f81423a6967cf783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcbd20565fa158a760b7460768d45504') in 0.006437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048646 seconds.
+  path: Assets/FREE Mana Seed Character Base Demo/char_a_p1/5hat/char_a_p1_5hat_pfht_v04.png
+  artifactKey: Guid(eb7bd8cccbb89974fa23f9d98115ed65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Mana Seed Character Base Demo/char_a_p1/5hat/char_a_p1_5hat_pfht_v04.png using Guid(eb7bd8cccbb89974fa23f9d98115ed65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb9b4350eb3eddb5c7718358700ee48') in 0.023744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.296145 seconds.
+  path: Assets/FREE Mana Seed Character Base Demo/guides/animations, page 1.png
+  artifactKey: Guid(af3ff4a197a937f418d461e5ab29c710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Mana Seed Character Base Demo/guides/animations, page 1.png using Guid(af3ff4a197a937f418d461e5ab29c710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0291d506994d587bb4b930f8911112') in 0.028681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 114.660404 seconds.
+  path: Assets/FREE Mana Seed Character Base Demo/char_a_p1/4har
+  artifactKey: Guid(ed2a7835b02d425419e89a1d6bace5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FREE Mana Seed Character Base Demo/char_a_p1/4har using Guid(ed2a7835b02d425419e89a1d6bace5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4db0acc86777fc93b1d617818e31768') in 0.006942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 114.756039 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.006447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.838642 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(92614d2ce7333de49b0b9c835f40cef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(92614d2ce7333de49b0b9c835f40cef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afefabb5840ce84753b9a04ce6a1bd4e') in 0.006463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.188825 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(4c86c6b6c8892cb49ad98922faebfa64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(4c86c6b6c8892cb49ad98922faebfa64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67fc39258cf07e0e0f51e27ba72b169') in 0.007065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 319.394713 seconds.
+  path: Assets/Sprites/Brackeys
+  artifactKey: Guid(526115882ac23ad408f89f6015bf3af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys using Guid(526115882ac23ad408f89f6015bf3af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd22ce501b5cc3d970b0a9a8236d8c0d') in 0.006914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.503289 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack
+  artifactKey: Guid(3f97bd75468a3704282bde6d8dcfaaba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack using Guid(3f97bd75468a3704282bde6d8dcfaaba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b4f0a529795753ddc5acf61a325c31') in 0.007236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.837594 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/UI
+  artifactKey: Guid(72216c93e9f14c241a16086054be5744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/UI using Guid(72216c93e9f14c241a16086054be5744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75780d8ecd11a7c2137a9d8fb64790a0') in 0.006492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032575 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/UI/Arrow.png
+  artifactKey: Guid(09c0ffabe50dba2449423f828d63133a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/UI/Arrow.png using Guid(09c0ffabe50dba2449423f828d63133a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2eeec56cfbd03d715196a16448baff0') in 0.044055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/UI/ItemPoolFrame.png
+  artifactKey: Guid(9e81f1d2291050f49bab39ec9fd0bbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/UI/ItemPoolFrame.png using Guid(9e81f1d2291050f49bab39ec9fd0bbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6802f0572f05606e9783f16851b21f94') in 0.127555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/UI/IconBox.png
+  artifactKey: Guid(418d638d3bbaa6f4b82cd8c785a73ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/UI/IconBox.png using Guid(418d638d3bbaa6f4b82cd8c785a73ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8631c59bf8ae8a554e41c525dfa4e7') in 0.293359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/UI/ItemFrame.png
+  artifactKey: Guid(37b388a5217aba141900a0ac698315c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/UI/ItemFrame.png using Guid(37b388a5217aba141900a0ac698315c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9369ce74661301214cde924b1d5094') in 0.062142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.680577 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/UI/Cursors
+  artifactKey: Guid(cefa5227e8d86944981f760a578e037c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/UI/Cursors using Guid(cefa5227e8d86944981f760a578e037c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad6c91cab77a80dcb4f122679c02167') in 0.006984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047622 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/UI/Cursors/Cursor_Normal.png
+  artifactKey: Guid(d673263d78ce47f488b74edbdd14b6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/UI/Cursors/Cursor_Normal.png using Guid(d673263d78ce47f488b74edbdd14b6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e82f73ec9a757704a516d1f7fff84d67') in 0.028542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/UI/Cursors/YellowCursor.png
+  artifactKey: Guid(f6c447868c4916746aba134404e3b985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/UI/Cursors/YellowCursor.png using Guid(f6c447868c4916746aba134404e3b985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e558c4ad23bdbbe9144037faf2a35aa') in 0.036581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.615695 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Weapons & Tools/Club.png
+  artifactKey: Guid(06140cc248b05d2488fbb6493ce5fd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Weapons & Tools/Club.png using Guid(06140cc248b05d2488fbb6493ce5fd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '804212fab62016384db8cd3f7cee9ad9') in 0.033844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Weapons & Tools/Sword.png
+  artifactKey: Guid(b2f3327f47464544293b6b9018e1296e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Weapons & Tools/Sword.png using Guid(b2f3327f47464544293b6b9018e1296e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd451be1641fd24dec1f32f396bdf2a') in 0.063871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Weapons & Tools/WateringCan.png
+  artifactKey: Guid(8dfb7eb4494cbe14eabf0fda5056d27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Weapons & Tools/WateringCan.png using Guid(8dfb7eb4494cbe14eabf0fda5056d27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3169818e3995778a5325653b0bba5eb4') in 0.091205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.482959 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Characters/Astronaut.png
+  artifactKey: Guid(a0e7f1167efba544bb8d6e3198ae44f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Characters/Astronaut.png using Guid(a0e7f1167efba544bb8d6e3198ae44f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8883fe9db0386e6353c5fd917a6a854f') in 0.223074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Characters/PongPlayer.png
+  artifactKey: Guid(3f5d8b39358f65040ade5d7096bc8085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Characters/PongPlayer.png using Guid(3f5d8b39358f65040ade5d7096bc8085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4275ad9cb889903a3db312f14f19b4') in 0.039348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Characters/MrPeanut.png
+  artifactKey: Guid(25dbfbd01b6dc0c49a048b76d7f7368f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Characters/MrPeanut.png using Guid(25dbfbd01b6dc0c49a048b76d7f7368f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2dfc996fde2921a485b1322e861cd48') in 0.089965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Characters/Miner.png
+  artifactKey: Guid(774fe8dccef69a44d9179e4529aea50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Characters/Miner.png using Guid(774fe8dccef69a44d9179e4529aea50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eec353ef247ace4a215297db001ca63') in 0.210646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.086298 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Characters/Fantasy/DarkWizard.png
+  artifactKey: Guid(31b17986fa5b13f4f9b7403589287a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Characters/Fantasy/DarkWizard.png using Guid(31b17986fa5b13f4f9b7403589287a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a5e2704d916907b9fffef732a2a288') in 0.105686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Characters/Fantasy/Princess.png
+  artifactKey: Guid(48cd8048939cc274dae16a9493829244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Characters/Fantasy/Princess.png using Guid(48cd8048939cc274dae16a9493829244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9411b061366983ba83aa1f2839e5783b') in 0.218438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Characters/Fantasy/LightWizard.png
+  artifactKey: Guid(4836c09be31426e49b52ea966be0a3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Characters/Fantasy/LightWizard.png using Guid(4836c09be31426e49b52ea966be0a3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908923764743159d1fecd7c0e6531c28') in 0.048843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.553982 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Characters/Stickman/Stick_Limb.png
+  artifactKey: Guid(f34bece99f09dad4e8002e10e7eb9a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Characters/Stickman/Stick_Limb.png using Guid(f34bece99f09dad4e8002e10e7eb9a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a945a4776eddb88c01220e82a078e6cc') in 0.111431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.791000 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Backgrounds/BrickBackground.png
+  artifactKey: Guid(fdfb3796a96b09f45b7ed20555d95926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Backgrounds/BrickBackground.png using Guid(fdfb3796a96b09f45b7ed20555d95926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d03c812d4c3be1aca1ffb83ee88a736') in 0.107819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Brackeys/2D Mega Pack/Backgrounds/SkyBackground.png
+  artifactKey: Guid(bb7547187a9980a4694d9a520186d028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Brackeys/2D Mega Pack/Backgrounds/SkyBackground.png using Guid(bb7547187a9980a4694d9a520186d028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1021ed0b1a9b4a7dc6ab4948dff6c1') in 0.039214 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
