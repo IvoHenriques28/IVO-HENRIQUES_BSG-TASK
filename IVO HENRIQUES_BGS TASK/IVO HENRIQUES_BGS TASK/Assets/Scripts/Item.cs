@@ -17,8 +17,6 @@ public class Item
 
     public ItemType itemType;
 
-    public int amount;
-
     public int id;
 
     //get item Sprite

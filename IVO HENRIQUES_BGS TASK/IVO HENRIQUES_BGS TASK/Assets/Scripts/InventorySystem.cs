@@ -18,6 +18,10 @@ public class InventorySystem : MonoBehaviour
 
         //create new inventory and set it in the UI
         inventory = new Inventory();
+        inventory.AddItem(new Item { itemType = Item.ItemType.Misc, id = 1 });
+        inventory.AddItem(new Item { itemType = Item.ItemType.Misc, id = 2 });
+        inventory.AddItem(new Item { itemType = Item.ItemType.Misc, id = 2 });
+        inventory.AddItem(new Item { itemType = Item.ItemType.Misc, id = 3 });
         uiInventory.SetInventory(inventory);
     }
 
@@ -36,6 +40,7 @@ public class InventorySystem : MonoBehaviour
         if (Input.GetKeyDown("i"))
         {
             InventoryShowing = !InventoryShowing;
+            gameObject.GetComponent<PlayerMovement>().enabled = !gameObject.GetComponent<PlayerMovement>().enabled;
         }
     }
 }
