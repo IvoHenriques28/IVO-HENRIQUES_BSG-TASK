@@ -85,7 +85,7 @@ public class InventorySystem : MonoBehaviour
 
     IEnumerator ResetShopOptions()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.8f);
 
         shopUI.GetComponent<ShopkeeperReference>().SellItems();
     }

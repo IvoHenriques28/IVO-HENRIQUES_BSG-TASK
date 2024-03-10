@@ -8,14 +8,14 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed; //character speed
     private Rigidbody2D rb; // Rigidbody reference
     private Vector2 moveInput; //which direction player wants to go
-    private Animator anim; // Animator reference
+    private Animator[] anim; // Animator reference
 
     // Start is called before the first frame update
     void Start()
     {
         //get all needed references
         rb = gameObject.GetComponent<Rigidbody2D>();
-        anim = playerBody.gameObject.GetComponent<Animator>();
+        anim = GetComponentsInChildren<Animator>();
     }
 
     // Update is called once per frame
@@ -35,8 +35,12 @@ public class PlayerMovement : MonoBehaviour
 
         //set animator float to the moveInputs
 
-        anim.SetFloat("Input X", moveInput.x);
-        anim.SetFloat("Input Y", moveInput.y);
+        foreach(var animator in anim)
+        {
+            animator.SetFloat("Input X", moveInput.x);
+            animator.SetFloat("Input Y", moveInput.y);
+        }
+
         //set velocity on rigidbody
         rb.velocity =  moveInput * moveSpeed;
     }

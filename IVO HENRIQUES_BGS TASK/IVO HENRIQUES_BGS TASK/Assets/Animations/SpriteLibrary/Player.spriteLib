@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 36
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: Idle Down
+    m_Hash: -1996588842
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Entry
+      m_Hash: -354373004
+      m_Sprite: {fileID: 1081211824, guid: afc6b5a869866ca4881b1ad8645b1c52, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1081211824, guid: afc6b5a869866ca4881b1ad8645b1c52, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: Idle Right
+    m_Hash: 1793452601
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Entry
+      m_Hash: -354373004
+      m_Sprite: {fileID: -2061678922, guid: afc6b5a869866ca4881b1ad8645b1c52, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2061678922, guid: afc6b5a869866ca4881b1ad8645b1c52, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: Idle Left
+    m_Hash: -295301243
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Entry
+      m_Hash: -354373004
+      m_Sprite: {fileID: 1396292806, guid: afc6b5a869866ca4881b1ad8645b1c52, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1396292806, guid: afc6b5a869866ca4881b1ad8645b1c52, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: Idle Up
+    m_Hash: 539271464
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Entry
+      m_Hash: -354373004
+      m_Sprite: {fileID: 1978200563, guid: afc6b5a869866ca4881b1ad8645b1c52, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1978200563, guid: afc6b5a869866ca4881b1ad8645b1c52, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: Walk Right
+    m_Hash: 1227515248
+    m_CategoryList: []
+    m_OverrideEntries: []
+    m_FromMain: 0
+    m_EntryOverrideCount: 0
+  - m_Name: Walk Left
+    m_Hash: -124847758
+    m_CategoryList: []
+    m_OverrideEntries: []
+    m_FromMain: 0
+    m_EntryOverrideCount: 0
+  - m_Name: Walk Up
+    m_Hash: -1479040965
+    m_CategoryList: []
+    m_OverrideEntries: []
+    m_FromMain: 0
+    m_EntryOverrideCount: 0
+  - m_Name: Walk Down
+    m_Hash: -1642688991
+    m_CategoryList: []
+    m_OverrideEntries: []
+    m_FromMain: 0
+    m_EntryOverrideCount: 0
+  m_PrimaryLibraryGUID: 

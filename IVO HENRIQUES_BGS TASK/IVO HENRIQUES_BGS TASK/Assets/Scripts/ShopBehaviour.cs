@@ -26,6 +26,12 @@ public class ShopBehaviour : MonoBehaviour
         inventory.AddItem(new Item { itemType = Item.ItemType.Head, id = 2, price = 20 });
         inventory.AddItem(new Item { itemType = Item.ItemType.Head, id = 3, price = 10 });
         inventory.AddItem(new Item { itemType = Item.ItemType.Accessory, id = 2, price = 20 });
+        inventory.AddItem(new Item { itemType = Item.ItemType.Pants, id = 2, price = 15 });
+        inventory.AddItem(new Item { itemType = Item.ItemType.Shirt, id = 3, price = 10 });
+        inventory.AddItem(new Item { itemType = Item.ItemType.Pants, id = 1, price = 30 });
+        inventory.AddItem(new Item { itemType = Item.ItemType.Head, id = 6, price = 20 });
+        inventory.AddItem(new Item { itemType = Item.ItemType.Head, id = 4, price = 10 });
+        inventory.AddItem(new Item { itemType = Item.ItemType.Accessory, id = 3, price = 20 });
         uiInventory.SetInventory(inventory);
     }
 
