@@ -14,6 +14,7 @@ public class InventorySystem : MonoBehaviour
     public int coinAmount;
     public TextMeshProUGUI coinAmountDisplay;
     public bool ableToSell;
+    public int itemAmount;
 
     public GameObject sellingTip;
     public GameObject shopUI;
@@ -23,16 +24,14 @@ public class InventorySystem : MonoBehaviour
     {
         //start bool as false
         InventoryShowing = false;
-        coinAmount = 10;
+        coinAmount = 5;
         //create new inventory and set it in the UI
         inventory = new Inventory();
-        inventory.AddItem(new Item { itemType = Item.ItemType.Misc, id = 1, price = 10 });
-        inventory.AddItem(new Item { itemType = Item.ItemType.Misc, id = 2, price = 20 });
-        inventory.AddItem(new Item { itemType = Item.ItemType.Misc, id = 2, price = 20 });
-        inventory.AddItem(new Item { itemType = Item.ItemType.Misc, id = 3, price = 30 });
-        inventory.AddItem(new Item { itemType = Item.ItemType.Misc, id = 5, price = 20 });
-        inventory.AddItem(new Item { itemType = Item.ItemType.Misc, id = 4, price = 10 });
-        inventory.AddItem(new Item { itemType = Item.ItemType.Misc, id = 3, price = 20 });
+        for(int i = 0; i < itemAmount; i++)
+        {
+            inventory.AddItem(new Item { itemType = Item.ItemType.Misc, id = Random.Range(0, 8), price = 4 });
+        }
+       
         uiInventory.SetInventory(inventory);
     }
 

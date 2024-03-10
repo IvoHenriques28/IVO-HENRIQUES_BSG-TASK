@@ -7,15 +7,19 @@ public class ItemBehaviour : MonoBehaviour, IPointerClickHandler
 {
 
     public InventorySystem player;
+    public ShopBehaviour shop;
 
     public int priceWorth;
 
     //get it's own reference within inventory
     public Item myself;
+
+    public bool shopItem;
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<InventorySystem>();
+        shop = GameObject.FindGameObjectWithTag("Shopkeeper").GetComponent<ShopBehaviour>();
     }
 
     // Update is called once per frame
@@ -38,8 +42,11 @@ public class ItemBehaviour : MonoBehaviour, IPointerClickHandler
         if(player.coinAmount >= priceWorth)
         {
             player.coinAmount -= priceWorth;
+            myself.price = 8;
             player.inventory.AddItem(myself);
+            shop.inventory.RemoveItem(myself);
             player.RefreshInventory();
+            shop.RefreshInventory();
         }      
     }
 
@@ -55,5 +62,10 @@ public class ItemBehaviour : MonoBehaviour, IPointerClickHandler
             {
                 SellItem();
             }
+
+        if (shopItem)
+        {
+            BuyItem();
+        }
     }
 }

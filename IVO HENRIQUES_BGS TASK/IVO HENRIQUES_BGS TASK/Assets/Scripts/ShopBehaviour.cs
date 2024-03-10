@@ -67,4 +67,9 @@ public class ShopBehaviour : MonoBehaviour
 
         emote.SetActive(true);
     }
+
+    public void RefreshInventory()
+    {
+        uiInventory.SetInventory(inventory);
+    }
 }
