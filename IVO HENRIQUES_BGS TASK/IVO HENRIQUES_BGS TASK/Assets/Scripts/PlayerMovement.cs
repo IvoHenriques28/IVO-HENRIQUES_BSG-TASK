@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public GameObject playerBody; //player's body
     public float moveSpeed; //character speed
     private Rigidbody2D rb; // Rigidbody reference
     private Vector2 moveInput; //which direction player wants to go
@@ -14,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
     {
         //get all needed references
         rb = gameObject.GetComponent<Rigidbody2D>();
-        anim = gameObject.GetComponent<Animator>();
+        anim = playerBody.gameObject.GetComponent<Animator>();
     }
 
     // Update is called once per frame

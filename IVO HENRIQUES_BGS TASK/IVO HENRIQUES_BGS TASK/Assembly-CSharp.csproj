@@ -57,6 +57,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\InventorySystem.cs" />
+    <Compile Include="Assets\Scripts\Item.cs" />
+    <Compile Include="Assets\Scripts\Inventory.cs" />
+    <Compile Include="Assets\Scripts\UIInventory.cs" />
+    <Compile Include="Assets\Scripts\ItemAssets.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Sprites\town full\info\movie info.txt" />

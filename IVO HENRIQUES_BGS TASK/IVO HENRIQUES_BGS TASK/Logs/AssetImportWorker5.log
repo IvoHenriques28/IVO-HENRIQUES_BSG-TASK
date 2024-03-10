@@ -1,0 +1,256 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.2f1 (d6360bedb9a0) revision 14038539'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16311 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+F:\Program Files (x86)\Unity\2021.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+F:/Users/Public/Documents/Unity Projects/IVO-HENRIQUES_BSG-TASK/IVO HENRIQUES_BGS TASK/IVO HENRIQUES_BGS TASK
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+56922
+Successfully changed project path to: F:/Users/Public/Documents/Unity Projects/IVO-HENRIQUES_BSG-TASK/IVO HENRIQUES_BGS TASK/IVO HENRIQUES_BGS TASK
+F:/Users/Public/Documents/Unity Projects/IVO-HENRIQUES_BSG-TASK/IVO HENRIQUES_BGS TASK/IVO HENRIQUES_BGS TASK
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 103.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
+[Subsystems] Discovering subsystems at path F:/Program Files (x86)/Unity/2021.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Users/Public/Documents/Unity Projects/IVO-HENRIQUES_BSG-TASK/IVO HENRIQUES_BGS TASK/IVO HENRIQUES_BGS TASK/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   NVIDIA
+    VRAM:     4017 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'F:/Program Files (x86)/Unity/2021.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'F:/Program Files (x86)/Unity/2021.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'F:/Program Files (x86)/Unity/2021.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/Program Files (x86)/Unity/2021.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: F:/Program Files (x86)/Unity/2021.3.2f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: F:/Program Files (x86)/Unity/2021.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004376 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 100.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.593 seconds
+Domain Reload Profiling:
+	ReloadAssembly (593ms)
+		BeginReloadAssembly (59ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (443ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (94ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (276ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (101ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004703 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Users\Public\Documents\Unity Projects\IVO-HENRIQUES_BSG-TASK\IVO HENRIQUES_BGS TASK\IVO HENRIQUES_BGS TASK\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Users\Public\Documents\Unity Projects\IVO-HENRIQUES_BSG-TASK\IVO HENRIQUES_BGS TASK\IVO HENRIQUES_BGS TASK\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 93.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.090 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1091ms)
+		BeginReloadAssembly (210ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (131ms)
+		EndReloadAssembly (788ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (205ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (421ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (93ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4049 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (55.6 KB). Loaded Objects now: 4508.
+Memory consumption went from 152.7 MB to 152.6 MB.
+Total: 3.035200 ms (FindLiveObjects: 0.336400 ms CreateObjectMapping: 0.109000 ms MarkObjects: 2.522200 ms  DeleteObjects: 0.066700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 541048.051731 seconds.
+  path: Assets/Sprites/Character v.2/hair/curly.png
+  artifactKey: Guid(7d0e5acc568c80848bc819c8868e9513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character v.2/hair/curly.png using Guid(7d0e5acc568c80848bc819c8868e9513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce160bf090feec72f991fa1dd0096aed') in 0.251774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Character v.2/hair/long_straight_skirt.png
+  artifactKey: Guid(efa5f932cdadfdb40b4c5b445036772d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character v.2/hair/long_straight_skirt.png using Guid(efa5f932cdadfdb40b4c5b445036772d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67c71b5add3d5702a47fded1a4bc01f') in 0.123580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Character v.2/hair/long_straight .png
+  artifactKey: Guid(87b06c49283dc304aa2bc7b3392bcb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character v.2/hair/long_straight .png using Guid(87b06c49283dc304aa2bc7b3392bcb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def7ade634c08c73121e1fc915433363') in 0.116554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.883690 seconds.
+  path: Assets/Sprites/Character v.2/acc/earring_red.png
+  artifactKey: Guid(a90b9d84b4cab2e4d908f93a5d7757ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character v.2/acc/earring_red.png using Guid(a90b9d84b4cab2e4d908f93a5d7757ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd00d6e5e7012cbbb3df58287e772eafa') in 0.032144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Character v.2/acc/hat_witch.png
+  artifactKey: Guid(5822eea8c6f8f4544bb457869cbad3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character v.2/acc/hat_witch.png using Guid(5822eea8c6f8f4544bb457869cbad3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85a1867545e6b0774c7ddc6c8e6d712') in 0.032532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Character v.2/acc/hat_cowboy.png
+  artifactKey: Guid(72e57ce640413b041a09ebd0edf3395c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character v.2/acc/hat_cowboy.png using Guid(72e57ce640413b041a09ebd0edf3395c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615333fde6e6289ae076b02fc226a443') in 0.031566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Character v.2/acc/mask_clown_red.png
+  artifactKey: Guid(d4c7b8a08b7986a479ebe72291c1aec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character v.2/acc/mask_clown_red.png using Guid(d4c7b8a08b7986a479ebe72291c1aec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f39654f9fb40e2b6a294d7d8a62c879c') in 0.030615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Character v.2/acc/hat_pumpkin.png
+  artifactKey: Guid(1c97a050aeda4a1428228d0ef50deb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character v.2/acc/hat_pumpkin.png using Guid(1c97a050aeda4a1428228d0ef50deb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e488cf331fd57051323ee286af92f3a') in 0.032040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.066467 seconds.
+  path: Assets/Sprites/full version/animals/bunny_grey animation.png
+  artifactKey: Guid(fa3fb5b693fe67641a8f15ecdd36a8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/full version/animals/bunny_grey animation.png using Guid(fa3fb5b693fe67641a8f15ecdd36a8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb8abdaeb7c8067f66d8fb71bdfd696') in 0.019697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/full version/animals/goat_stripe animation.png
+  artifactKey: Guid(d402159e6e0d9d24eaeda3f49411e244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/full version/animals/goat_stripe animation.png using Guid(d402159e6e0d9d24eaeda3f49411e244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df689e595c0c4183789563f7a84f2dca') in 0.023258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/full version/animals/turkey animation.png
+  artifactKey: Guid(3b9f3cb72e57a83418d5b505ec61a7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/full version/animals/turkey animation.png using Guid(3b9f3cb72e57a83418d5b505ec61a7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '110664b9c47237de8284da3c2695e8dc') in 0.018798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/full version/animals/cow_baby animation.png
+  artifactKey: Guid(aa22530bf03c33948b26ce583cb47cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/full version/animals/cow_baby animation.png using Guid(aa22530bf03c33948b26ce583cb47cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5707bb54c655374504a6387b8283de') in 0.020466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/full version/animals/goat_baby_stripe animation.png
+  artifactKey: Guid(eefeea1aa3d9aca4aa3359b9a45a2f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/full version/animals/goat_baby_stripe animation.png using Guid(eefeea1aa3d9aca4aa3359b9a45a2f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '937f94fa7e1b1c10a84cf297920ddf22') in 0.019595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/full version/animals/goat_baby animation.png
+  artifactKey: Guid(14170e3dfd56ef743b3c21f31cf6f644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/full version/animals/goat_baby animation.png using Guid(14170e3dfd56ef743b3c21f31cf6f644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f503ed674e29c6c6d154a071d8dd9a') in 0.020675 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
