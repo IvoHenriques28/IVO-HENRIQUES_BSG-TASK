@@ -13,8 +13,9 @@ public class TextWritter : MonoBehaviour
     public float timer;
 
     public ShopBehaviour shopkeeper;
-    // Start is called before the first frame update
-    void Awake()
+
+    //reset text speech everytime we talk to the shopkeeper
+    void OnEnable()
     {
         textToSee = dialogue;
         characterIndex = 0;

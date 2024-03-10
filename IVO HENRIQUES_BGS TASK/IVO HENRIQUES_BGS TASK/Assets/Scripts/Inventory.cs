@@ -16,4 +16,9 @@ public class Inventory
     {
         itemList.Add(item);
     }
+
+    public void RemoveItem(Item item)
+    {
+        itemList.Remove(item);
+    }
 }

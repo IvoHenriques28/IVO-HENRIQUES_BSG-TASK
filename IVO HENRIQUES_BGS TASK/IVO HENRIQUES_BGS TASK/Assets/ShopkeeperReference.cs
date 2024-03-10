@@ -6,7 +6,7 @@ public class ShopkeeperReference : MonoBehaviour
 {
 
     public GameObject shopKeeper;
-    
+    public InventorySystem player;
 
     public void AnimationEvent()
     {
@@ -17,5 +17,16 @@ public class ShopkeeperReference : MonoBehaviour
     {
         gameObject.GetComponent<Animator>().SetBool("DialogueTrigger", false);
         gameObject.GetComponent<Animator>().SetBool("ShowOptions", false);
+    }
+
+    public void SellItems()
+    {
+        player.ableToSell = !player.ableToSell;
+        gameObject.GetComponent<Animator>().SetBool("Sell", !gameObject.GetComponent<Animator>().GetBool("Sell"));
+    }
+
+    public void TurnOnInventory()
+    {
+        player.InventoryShowing = true;
     }
 }

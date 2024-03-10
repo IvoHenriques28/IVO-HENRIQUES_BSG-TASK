@@ -19,6 +19,9 @@ public class Item
 
     public int id;
 
+    public int price;
+
+
     //get item Sprite
     public Sprite GetSprite()
     {

@@ -27,8 +27,15 @@ public class UIInventory : MonoBehaviour
 
 
     //for each item currently in our inventory, display it in the UI in a grid format
-    private void RefreshInventoryItems()
+    public void RefreshInventoryItems()
     {
+        foreach (Transform child in itemSlotContainter.transform)
+        {
+            if(child != itemSlotTemplate)
+            {
+                Destroy(child.gameObject);
+            }
+        }
         int x = 0;
         int y = 0;
         int rowLimit = 8;
@@ -38,7 +45,8 @@ public class UIInventory : MonoBehaviour
             RectTransform itemSlotRectTransform = Instantiate(itemSlotTemplate, itemSlotContainter).GetComponent<RectTransform>();
             itemSlotRectTransform.gameObject.SetActive(true);
             itemSlotRectTransform.anchoredPosition = new Vector2(x * itemSlotCellSize, y * itemSlotCellSize);
-
+            itemSlotRectTransform.gameObject.GetComponent<ItemBehaviour>().priceWorth = item.price;
+            itemSlotRectTransform.gameObject.GetComponent<ItemBehaviour>().myself = item;
             Image image = itemSlotRectTransform.Find("Item Icon").GetComponent<Image>();
 
             image.sprite = item.GetSprite();
