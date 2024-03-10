@@ -16,6 +16,7 @@ public class InventorySystem : MonoBehaviour
     public bool ableToSell;
 
     public GameObject sellingTip;
+    public GameObject shopUI;
 
     // Start is called before the first frame update
     void Start()
@@ -51,10 +52,10 @@ public class InventorySystem : MonoBehaviour
         UIAnimatorInventory.SetBool("Inventory", InventoryShowing);
 
         //if inventory key is pressed, change inventory bool
-        if (Input.GetKeyDown("i"))
+        if (Input.GetKeyDown("i") && !ableToSell)
         {
-            InventoryShowing = !InventoryShowing;
-            gameObject.GetComponent<PlayerMovement>().enabled = !gameObject.GetComponent<PlayerMovement>().enabled;
+            TurnInventoryOnOff();
+            
         }
 
         if (ableToSell)
@@ -65,6 +66,29 @@ public class InventorySystem : MonoBehaviour
         {
             sellingTip.SetActive(false);
         }
+    }
+
+    public void TurnInventoryOnOff()
+    {
+        InventoryShowing = !InventoryShowing;
+
+        if (!ableToSell) 
+        {
+            gameObject.GetComponent<PlayerMovement>().enabled = !gameObject.GetComponent<PlayerMovement>().enabled;
+        }
+        else
+        {
+            StartCoroutine(ResetShopOptions());
+                
+
+        }
+    }
+
+    IEnumerator ResetShopOptions()
+    {
+        yield return new WaitForSeconds(0.5f);
+
+        shopUI.GetComponent<ShopkeeperReference>().SellItems();
     }
 
     public void RefreshInventory()

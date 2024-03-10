@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class UIInventory : MonoBehaviour
 {
@@ -11,6 +12,9 @@ public class UIInventory : MonoBehaviour
     [SerializeField] private GameObject InventoryPanel;
     private Transform itemSlotContainter;
     private Transform itemSlotTemplate;
+
+    public bool ShopInventory;
+
 
     private void Awake()
     {
@@ -48,6 +52,16 @@ public class UIInventory : MonoBehaviour
             itemSlotRectTransform.gameObject.GetComponent<ItemBehaviour>().priceWorth = item.price;
             itemSlotRectTransform.gameObject.GetComponent<ItemBehaviour>().myself = item;
             Image image = itemSlotRectTransform.Find("Item Icon").GetComponent<Image>();
+            if (ShopInventory)
+            {
+                TextMeshProUGUI price = itemSlotRectTransform.Find("Item Price").GetComponent<TextMeshProUGUI>();
+
+                if (price != null)
+                {
+                    price.text = itemSlotRectTransform.gameObject.GetComponent<ItemBehaviour>().priceWorth.ToString() + "c";
+                }
+            }
+            
 
             image.sprite = item.GetSprite();
             x++;
@@ -58,4 +72,6 @@ public class UIInventory : MonoBehaviour
             }
         }
     }
+
+
 }

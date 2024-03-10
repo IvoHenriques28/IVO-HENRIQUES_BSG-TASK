@@ -33,6 +33,16 @@ public class ItemBehaviour : MonoBehaviour, IPointerClickHandler
         player.RefreshInventory();
     }
 
+    public void BuyItem()
+    {
+        if(player.coinAmount >= priceWorth)
+        {
+            player.coinAmount -= priceWorth;
+            player.inventory.AddItem(myself);
+            player.RefreshInventory();
+        }      
+    }
+
     public void OnPointerClick(PointerEventData eventData)
     {
         Debug.Log("Object Clicked");

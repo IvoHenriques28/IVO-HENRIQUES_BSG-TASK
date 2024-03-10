@@ -25,8 +25,16 @@ public class ShopkeeperReference : MonoBehaviour
         gameObject.GetComponent<Animator>().SetBool("Sell", !gameObject.GetComponent<Animator>().GetBool("Sell"));
     }
 
+    public void BuyItems()
+    {
+        gameObject.GetComponent<Animator>().SetBool("Buy", !gameObject.GetComponent<Animator>().GetBool("Buy"));
+    }
+
     public void TurnOnInventory()
     {
-        player.InventoryShowing = true;
+        if (player.ableToSell)
+        {
+            player.InventoryShowing = true;
+        }
     }
 }
